@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+       "start": "node server.js"
   },
   "author": "Bikram Singh",
   "license": "MIT",
@@ -22,3 +22,4 @@
   },
   "homepage": "https://github.com/BikramSingh1989/Weather-Check-API#readme"
 }
+
