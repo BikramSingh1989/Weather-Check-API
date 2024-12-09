@@ -4,11 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    start": "client/node server.js"
     "dev": "vite",
     "build": "npx tsc && vite build",
     "preview": "vite preview",
-    "start": "node server.js"
+    "start": "node client/server.js"  
   },
   "devDependencies": {
     "typescript": "^5.4.5",
@@ -18,3 +17,4 @@
     "dayjs": "^1.11.10"
   }
 }
+
