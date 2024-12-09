@@ -4,7 +4,6 @@
   "main": "index.js",
   "scripts": {
        "start": "node client/server.js"
-
   },
   "author": "Bikram Singh",
   "license": "MIT",
