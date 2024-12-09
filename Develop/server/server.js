@@ -2,6 +2,7 @@
 import express from 'express';
 import axios from 'axios';
 import dotenv from 'dotenv';
+import path from 'path';  // Use import for path
 
 // Initialize dotenv configuration
 dotenv.config();
@@ -14,6 +15,10 @@ const API_URL = "https://api.openweathermap.org/data/2.5/forecast";
 const API_KEY = process.env.OPENWEATHER_API_KEY; // Store API key in .env file
 
 app.use(express.json());
+
+
+const serverPath = path.resolve('server.js');
+console.log(serverPath);  
 
 // Route to fetch weather data for a city
 app.get('/weather/:city', async (req, res) => {
